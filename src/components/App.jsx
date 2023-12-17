@@ -23,9 +23,7 @@ export const App = () => {
   }, [dispatch]);
 
   return isRefreshing ? (
-    // <b>Refreshing user...</b>
     <Loader/>
-    // сюда спинер 
   ) : (
         <Routes>
           <Route path="/" element={<Layout />}>
