@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/goit-react-hw-08-phonebook/static/css/main.f9228453.css",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.39cc3160.js",
+    "static/js/912.cb165554.chunk.js": "/goit-react-hw-08-phonebook/static/js/912.cb165554.chunk.js",
+    "static/js/574.3b1233be.chunk.js": "/goit-react-hw-08-phonebook/static/js/574.3b1233be.chunk.js",
+    "static/js/775.dc703e40.chunk.js": "/goit-react-hw-08-phonebook/static/js/775.dc703e40.chunk.js",
+    "static/js/114.ef345298.chunk.js": "/goit-react-hw-08-phonebook/static/js/114.ef345298.chunk.js",
+    "static/js/419.cd61b0df.chunk.js": "/goit-react-hw-08-phonebook/static/js/419.cd61b0df.chunk.js",
+    "static/media/home.jpg": "/goit-react-hw-08-phonebook/static/media/home.1769e9533742fd39db99.jpg",
+    "static/media/tekstura-fon.jpg": "/goit-react-hw-08-phonebook/static/media/tekstura-fon.9409e99d0d21e7add174.jpg",
+    "index.html": "/goit-react-hw-08-phonebook/index.html",
+    "main.f9228453.css.map": "/goit-react-hw-08-phonebook/static/css/main.f9228453.css.map",
+    "main.39cc3160.js.map": "/goit-react-hw-08-phonebook/static/js/main.39cc3160.js.map",
+    "912.cb165554.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/912.cb165554.chunk.js.map",
+    "574.3b1233be.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/574.3b1233be.chunk.js.map",
+    "775.dc703e40.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/775.dc703e40.chunk.js.map",
+    "114.ef345298.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/114.ef345298.chunk.js.map",
+    "419.cd61b0df.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/419.cd61b0df.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f9228453.css",
+    "static/js/main.39cc3160.js"
+  ]
+}
