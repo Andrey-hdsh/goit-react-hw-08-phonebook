@@ -1,6 +1,6 @@
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/operations';
-import { WrapperForm } from './RegisterForm.styled';
+import { Wrapper } from './RegisterForm.styled';
 import { useAuth } from 'hook/useAuth';
 import { Loader } from 'components/Loader/Loader';
 
@@ -25,7 +25,7 @@ export const RegisterForm = () => {
   };
 
   return (
-    <WrapperForm>
+    <Wrapper>
       {isLoading === 'loading' && <Loader/>}
       <form
         onSubmit={handleSubmitRegisterForm}
@@ -55,6 +55,6 @@ export const RegisterForm = () => {
           Register
         </button>
       </form>
-    </WrapperForm>
+    </Wrapper>
   );
 };

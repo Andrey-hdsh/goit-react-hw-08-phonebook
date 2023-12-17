@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ListContainer = styled.div`
+export const Wrapper = styled.div`
   li {
     margin-top: 20px;
 

@@ -1,11 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
-export const AuthNavigationWrapper = styled.div`
-a{
+export const Wrapper = styled.div`
+  a {
     margin-right: 48px;
-}
-a:last-child {
-  margin-right: 0;
-}
-
-`
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+`;

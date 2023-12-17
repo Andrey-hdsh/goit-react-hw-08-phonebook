@@ -7,8 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { fetchContacts } from 'redux/operations';
 import { selectError, selectIsLoading } from 'redux/selectors';
-import { Bkg, ErrorMsg, Wrapper } from './Contacts.styled';
-
+import { Container, ErrorMsg, Wrapper } from './Contacts.styled';
 
 export const SectionFormContacts = () => {
   const dispatch = useDispatch();
@@ -21,7 +20,7 @@ export const SectionFormContacts = () => {
   }, [dispatch]);
 
   return (
-    <Bkg>
+    <Container>
       <Wrapper>
         <div>
           <ContactForm />
@@ -38,6 +37,6 @@ export const SectionFormContacts = () => {
           Sorry, something went wrong... Try reloading the page!
         </ErrorMsg>
       )}
-    </Bkg>
+    </Container>
   );
 };

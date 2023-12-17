@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from 'react-redux';
-import { FilterContainer } from './filter.styled';
+import { Container } from './Filter.styled';
 import { setFilter } from 'redux/filtersSlice';
 import { selectFilter } from 'redux/selectors';
-
 
 export const Filter = () => {
   const filters = useSelector(selectFilter);
@@ -13,7 +12,7 @@ export const Filter = () => {
   };
 
   return (
-    <FilterContainer>
+    <Container>
       <p>Find contacts by name</p>
       <input
         value={filters}
@@ -22,6 +21,6 @@ export const Filter = () => {
         name="filter"
         placeholder="name search"
       ></input>
-    </FilterContainer>
+    </Container>
   );
 };

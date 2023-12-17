@@ -1,15 +1,15 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-padding: 200px 0 0 60px;
-      color: white;
+  padding: 200px 0 0 60px;
+  color: white;
 
-    h1 {
-      font-size: 42px;
-      font-weight: lighter;
-    }
+  h1 {
+    font-size: 42px;
+    font-weight: lighter;
+  }
 
-    p {
-      margin-top: 10px;
-    }
-`
+  p {
+    margin-top: 10px;
+  }
+`;

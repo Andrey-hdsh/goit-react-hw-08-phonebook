@@ -21,7 +21,6 @@ const contactsSlice = createSlice({
   },
   extraReducers: builder => {
     builder
-      // добавить обработку ошибки еррор и пендинг для прокрутки спинера 
       .addCase(fetchContacts.pending, handlePending)
       .addCase(fetchContacts.fulfilled, (state, action) => {
         state.isLoading = false;

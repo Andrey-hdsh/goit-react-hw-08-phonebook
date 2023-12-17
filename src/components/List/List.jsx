@@ -1,4 +1,4 @@
-import { ListContainer } from './list.styled';
+import { Wrapper } from './list.styled';
 import { useDispatch, useSelector } from 'react-redux';
 import { deleteContact } from 'redux/operations';
 import { selectFilteredContacts } from 'redux/selectors';
@@ -12,7 +12,7 @@ export const ContactList = () => {
   };
 
   return (
-    <ListContainer>
+    <Wrapper>
       <ul>
         {filteredContacts.map(({ name, number, id }) => (
           <li key={id}>
@@ -25,6 +25,6 @@ export const ContactList = () => {
           </li>
         ))}
       </ul>
-    </ListContainer>
+    </Wrapper>
   );
 };

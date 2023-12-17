@@ -21,7 +21,7 @@ export const register = createAsyncThunk(
       toast.success('Registration successful');
       return response.data;
     } catch (error) {
-      toast.error('Incorrect data')
+      toast.error('Incorrect data');
       return thunkAPI.rejectWithValue(error.message);
     }
   }
@@ -37,9 +37,8 @@ export const logIn = createAsyncThunk(
       toast.success('Login successful');
       return response.data;
     } catch (error) {
-      toast.error('Incorrect data')
+      toast.error('Incorrect data');
       return thunkAPI.rejectWithValue(error.message);
-
     }
   }
 );

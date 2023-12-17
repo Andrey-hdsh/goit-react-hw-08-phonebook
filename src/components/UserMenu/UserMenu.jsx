@@ -6,15 +6,15 @@ import { Loader } from 'components/Loader/Loader';
 
 export const UserMenu = () => {
   const dispatch = useDispatch();
-  const { user , isLoading } = useAuth();
+  const { user, isLoading } = useAuth();
 
   const handleClickLogout = () => {
-    dispatch(logOut())
+    dispatch(logOut());
   };
 
   return (
     <Wrapper>
-      {isLoading === 'loading' && <Loader/>}
+      {isLoading === 'loading' && <Loader />}
       <p> Welcome, {user.name}</p>
       <button type="button" onClick={handleClickLogout}>
         Logout

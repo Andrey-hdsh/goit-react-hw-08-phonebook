@@ -1,13 +1,13 @@
-import { useDispatch} from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 import { Wrapper } from './LoginForm.styled';
 import { Loader } from 'components/Loader/Loader';
 import { useAuth } from 'hook/useAuth';
 
 export const LoginForm = () => {
-
   const dispatch = useDispatch();
   const { isLoading } = useAuth();
+  
   const handleSubmitLoginForm = evt => {
     evt.preventDefault();
 
